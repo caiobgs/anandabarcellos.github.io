@@ -17695,3 +17695,23 @@ a.purchase-btn:hover {
   border: 2px solid #fff;
   color: #fff;
 }
+
+/* dp */
+
+.color-white{
+  color: #ffffff;
+}
+.div-width{
+  width: 70%;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.materia-header span{
+  color: #cecece;
+  font-weight: bold;
+  margin-right: 20px;
+}
