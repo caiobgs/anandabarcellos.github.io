@@ -79,7 +79,9 @@
  */
  :root {
   --secondary-color: #7a35c5;
+  --secondary-darker-color: #3d1b61;
   --gradient-secondary: #3539c5;
+  --primary-color: #191919;
 }
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700,800,900|Poppins:300,400,500,600,700,700i&display=swap");
 * {
@@ -3956,6 +3958,13 @@ font-family: 'Poppins', sans-serif;
 
 .bg_color--7 {
   background: #101010;
+}
+
+.bg_color--8 {
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--primary-color)), to(var(--secondary-darker-color)));
+  background-image: -webkit-linear-gradient(left,var(--primary-color), var(--secondary-darker-color));
+  background-image: -o-linear-gradient(left, var(--primary-color), var(--secondary-darker-color));
+  background-image: linear-gradient(to right, var(--primary-color), var(--secondary-darker-color));
 }
 
 /*===========================
